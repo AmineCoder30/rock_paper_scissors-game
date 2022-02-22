@@ -147,7 +147,7 @@ $(theButton).on("click",function () {
 
        $(theButton).text("set to easy");
 
-       $(".head .name img").attr("src", "../../image/logo-bonus.svg");
+       $(".head .name img").attr("src", $(".hr").attr('src'));
     
     }else{
         $(".easy").show().addClass("selected");
@@ -160,7 +160,7 @@ $(theButton).on("click",function () {
 
         $(theButton).text("set to hard");
 
-        $(".head .name img").attr("src", "../../image/logo.svg");
+        $(".head .name img").attr("src", $(".es").attr('src'));
       
     }
 
