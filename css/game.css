@@ -51,6 +51,12 @@ body {
 @media (max-width: 760px) {
   .parent .head {
     margin: 20px 10px;
+     width:100%;
+  }
+}
+@media (min-width: 761px) {
+  .parent .head {
+   width:75%;
   }
 }
 
@@ -107,7 +113,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-top: 40px;
+  
 }
 
 .parent .game .clone {
@@ -280,7 +286,7 @@ body {
 
 .parent .game > div {
   position: relative;
-  margin-top: 20px;
+
 }
 
 .parent .game > div .background {
